@@ -113,11 +113,16 @@ h3 {
     margin: 20px 10px 30px;
 }
 
+#pricing h1, h2, h3, p {
+    font-family: "Montserrat-Bold";
+    color: black;
+}
+
 #pricing {
-    align-content: center;
+    padding: 100px;
     text-align: center;
 }
 
-#pricing h1, h2, h3, p {
-    color: black;
+.pricing-column {
+    padding: 3%;
 }
