@@ -25,7 +25,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
@@ -55,6 +55,8 @@ h3 {
 .product-device img {
     width: 60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 .download-button {
@@ -65,6 +67,8 @@ h3 {
 
 #features {
     padding: 3% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 
@@ -89,7 +93,6 @@ h3 {
 #testimonials {
     background-color: #ef8172;
     text-align: center;
-
 }
 
 .testimonial-image {
@@ -100,6 +103,12 @@ h3 {
 
 .carousel-item {
     padding: 5% 10%;
+}
+
+.carousel-item h2 {
+    font-family: "Montserrat-Bold";
+    color: #fff;
+    font-size: 3rem;
 }
 
 #press {
@@ -125,4 +134,40 @@ h3 {
 
 .pricing-column {
     padding: 3%;
+}
+
+#cta {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+#cta h3 {
+    font-family: "Montserrat-Black";
+    color: #fff;
+    font-size: 3rem;
+}
+
+#footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 15%;
+}
+
+#footer p {
+    color: #8f8f8f;
+}
+
+.footer-link {
+    margin: 1%;
+}
+
+@media (max-width: 1028px) {
+    .product-device img {
+        position: static;
+        transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
 }
